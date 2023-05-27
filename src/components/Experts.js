@@ -1,9 +1,16 @@
 import React from 'react'
-
+import laptop from '../assets/ethical-hacking.png'
 function Experts() {
   return (
-    <div className='max-w-[1240px] mx-auto h-[200px] border border-black'>
-        H
+    <div className='max-w-[1240px] mx-auto  md:my-5  md:grid grid-cols-2'>
+        <div className='border   col-span-1'>
+          <img className='object-fill' src={laptop} alt=""></img>
+        </div>
+        <div className='border  col-span-1 flex flex-col flex-wrap items-center justify-center'>
+          <h2 className='font-bold text-2xl text-[#00df9a] m-2'>Learn From Experts</h2>
+          <p className='m-2 text-black font-semibold text-justify md:text-left'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque corporis delectus, facilis voluptatum quibusdam laudantium voluptas repellat quos. Quibusdam deserunt dignissimos placeat id explicabo quisquam voluptatum quaerat minus cum eligendi.</p> 
+        <button className='w-[30%] bg-black text-white hover:scale-110 rounded-md p-3 m-2 '>Get Started</button>
+        </div>
     </div>
   )
 }

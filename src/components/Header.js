@@ -9,7 +9,7 @@ function Header() {
         {/* Navbar */}
         <div className='max-w-1240px flex  justify-between items-center mx-auto'>
             {/* Logo */}
-            <div className='font-bold text-3xl px-2'>
+            <div className='font-bold text-3xl px-2 hover:scale-125'>
                 SPYder
             </div>
             {/* Menu */}
@@ -20,12 +20,12 @@ function Header() {
                 <HiMenuAlt1  onClick={()=> setToggle(!toggle)} className='text-white text-4xl  md:hidden block'/>
             }
             
-            <ul className='hidden md:flex text-white gap-x-5 px-2'>
-                <li>Home</li>
-                <li>Company</li>
-                <li>Resources</li>
-                <li>About</li>
-                <li>Contact</li>
+            <ul className='font-bold text-xl hidden md:flex text-white gap-x-5 px-2'>
+                <li className=' hover:scale-110 duration-300 hover:underline'>Home</li>
+                <li className=' hover:scale-110 duration-300 hover:underline'>Company</li>
+                <li className=' hover:scale-110 duration-300 hover:underline'>Resources</li>
+                <li className=' hover:scale-110 duration-300 hover:underline'>About</li>
+                <li className=' hover:scale-110 duration-300 hover:underline'>Contact</li>
             </ul>
             {/* Responsive Menu */}
             <ul className={`duration-300 md:hidden w-full h-screen text-white fixed left-[-100%] top-[67px] bg-black px-2
