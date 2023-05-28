@@ -15,9 +15,9 @@ function Header() {
             {/* Menu */}
             {
                 toggle ?
-            <AiOutlineCloseCircle onClick={()=> setToggle(!toggle)}  className='text-white text-4xl md:hidden block'/>
+            <AiOutlineCloseCircle  onClick={()=> setToggle(!toggle)}  className='text-white text-4xl md:hidden block'/>
                 :
-                <HiMenuAlt1  onClick={()=> setToggle(!toggle)} className='text-white text-4xl  md:hidden block'/>
+                <HiMenuAlt1 onClick={()=> setToggle(!toggle)} className='text-white text-4xl  md:hidden block'/>
             }
             
             <ul className='font-bold text-xl hidden md:flex text-white gap-x-5 px-2'>
