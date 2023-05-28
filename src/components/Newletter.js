@@ -5,7 +5,7 @@ function Newletter() {
     <div className="bg-[#2699fb] p-4">
     <div className='max-w-[1600px] mx-auto md:grid grid-cols-2'>
         <div className='p-10  '>
-            <p className='font-bold text-white text-5xl'>Want to learn latest I.T skills?</p>
+            <p className='font-bold text-white text-5xl'>Want to learn latest hacking skills?</p>
             <p className='text-white font-semibold'>Sign up to our newsletter and stay up to date</p>
         </div>
         <div className=' p-10   '>
