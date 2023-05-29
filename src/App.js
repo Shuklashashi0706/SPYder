@@ -1,21 +1,24 @@
-import React from 'react'
-import Header from './components/Header'
-import Banner from './components/Banner'
-import Experts from './components/Experts'
-import Newletter from './components/Newletter'
-import Plans from './components/Plans'
-import Footer from './components/Footer'
+import React from "react";
+import Header from "./components/Header";
+import Banner from "./components/Banner";
+import Experts from "./components/Experts";
+import Newletter from "./components/Newletter";
+import Plans from "./components/Plans";
+import Footer from "./components/Footer";
+import Login from './screens/Login'
 function App() {
-  return (
+    return (
       <>
-      <Header/>
-      <Banner/>
-      <Experts/>
-      <Newletter/>
-      <Plans/>
-      <Footer/>
+        <Login />
+        <Header />
+        <Banner />
+        <Experts />
+        <Newletter />
+        <Plans />
+        <Footer />
       </>
-  );
-}
-
-export default App
+    );
+  }
+  
+  export default App;
+  
