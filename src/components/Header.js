@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import {HiMenuAlt1} from "react-icons/hi";
 import {AiOutlineCloseCircle} from "react-icons/ai"
+import { Link } from 'react-router-dom';
 function Header() {
     const [toggle,setToggle]=useState(false);
   return (
@@ -21,11 +22,10 @@ function Header() {
             }
             
             <ul className='font-bold text-xl hidden md:flex text-white gap-x-5 px-2'>
-                <li className=' hover:scale-110 duration-300 hover:underline'>Home</li>
-                <li className=' hover:scale-110 duration-300 hover:underline'>Company</li>
-                <li className=' hover:scale-110 duration-300 hover:underline'>Resources</li>
-                <li className=' hover:scale-110 duration-300 hover:underline'>About</li>
-                <li className=' hover:scale-110 duration-300 hover:underline'>Contact</li>
+                <li className=' hover:scale-110 duration-300 hover:underline'><Link to='/'>Home</Link></li>
+                <li className=' hover:scale-110 duration-300 hover:underline'><Link to='/courses'>Courses</Link></li>
+                <li className=' hover:scale-110 duration-300 hover:underline'><Link to='/about'>About</Link></li>
+                <li className=' hover:scale-110 duration-300 hover:underline'><Link to='/login'>Login</Link></li>
             </ul>
             {/* Responsive Menu */}
             <ul className={`duration-300 md:hidden w-full h-screen text-white fixed left-[-100%] top-[67px] bg-black px-2

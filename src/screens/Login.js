@@ -3,7 +3,7 @@ import React from 'react'
 function Login() {
   return (
     <div className='bg-[#2699fb]  flex items-center justify-center h-screen'>
-        <div className='max-w-[60%] mx-auto flex'>
+        <div className='max-w-[80%] mx-auto flex'>
             <div className=' bg-[#097ad6] shadow-lg h-[500px]  rounded-l-[10px] flex flex-col items-center p-10'>
                 <p className='font-semibold text-2xl text-white mt-[120px] mb-2 '>Nice to see you again</p>
                 <p className='font-bold text-white text-5xl mb-2 '>WELCOME BACK</p>
