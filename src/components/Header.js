@@ -30,11 +30,10 @@ function Header() {
             {/* Responsive Menu */}
             <ul className={`duration-300 md:hidden w-full h-screen text-white fixed left-[-100%] top-[67px] bg-black px-2
             ${toggle? 'left-[0]':'left-[-100%]'}`}>
-                <li className='p-4'>Home</li>
-                <li className='p-4'>Company</li>
-                <li className='p-4'>Resources</li>
-                <li className='p-4'>About</li>
-                <li className='p-4'>Contact</li>
+                <li className='p-4'><Link to='/'>Home</Link></li>
+                <li className='p-4'><Link to='/courses'>Courses</Link></li>
+                <li className='p-4'><Link to='/about'>About</Link></li>
+                <li className='p-4'><Link to='/login'>Login</Link></li>
             </ul>
         </div>
 
