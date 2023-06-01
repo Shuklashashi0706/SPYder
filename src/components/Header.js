@@ -24,6 +24,7 @@ function Header() {
             <ul className='font-bold text-xl hidden md:flex text-white gap-x-5 px-2'>
                 <li className=' hover:scale-110 duration-300 hover:underline'><Link to='/'>Home</Link></li>
                 <li className=' hover:scale-110 duration-300 hover:underline'><Link to='/courses'>Courses</Link></li>
+                <li className=' hover:scale-110 duration-300 hover:underline'><Link to='/cart'>Cart</Link></li>
                 <li className=' hover:scale-110 duration-300 hover:underline'><Link to='/about'>About</Link></li>
                 <li className=' hover:scale-110 duration-300 hover:underline'><Link to='/login'>Login</Link></li>
             </ul>

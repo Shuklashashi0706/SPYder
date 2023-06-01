@@ -5,6 +5,7 @@ import About from './screens/About'
 import Login from './screens/Login'
 import Error from './screens/Error'
 import Course from "./screens/Course";
+import Cart from './screens/Cart'
 import { BrowserRouter as Main, Route, Routes } from "react-router-dom";
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Routes>
           <Route exact path="/" element={<Home/>} />
           <Route exact path="/courses" element={<Course/>} />
+          <Route exact path="/cart" element={<Cart/>} />
           <Route exact path="/about" element={<About/>} />
           <Route exact path="/login" element={<Login/>} />
           <Route path="/*" element={<Error/>} />

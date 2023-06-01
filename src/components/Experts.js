@@ -1,10 +1,10 @@
 import React from 'react'
-import laptop from '../assets/ethical-hacking.png'
+import hack from '../assets/images/ethical-hacking.png'
 function Experts() {
   return (
     <div className=' max-w-[1240px] mx-auto  md:my-5  md:grid grid-cols-2'>
         <div className='border   col-span-1'>
-          <img className='object-fill rounded' src={laptop} alt=""></img>
+          <img className='object-fill rounded' src={hack} alt=""></img>
         </div>
         <div className=' p-5 md:p-0 ml-[20px] col-span-1 flex flex-col flex-wrap items-center justify-center'>
           <h2 className='font-bold text-2xl text-[#00df9a] m-2'>Learn From Experts</h2>
