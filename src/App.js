@@ -13,7 +13,7 @@ function App() {
       {/* Everything need to be closed under Browserrouter */}
       <Main>
         <Header />
-        {/* Then which is going to be route has to b eclosed under routes */}
+        {/* Then which is going to be route has to be closed under routes */}
         <Routes>
           <Route exact path="/" element={<Home/>} />
           <Route exact path="/courses" element={<Course/>} />
